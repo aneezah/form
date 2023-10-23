@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 22px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: large;
+}
+#name input{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 14px 4px;    
+}
+#rad label{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#select{
+    margin-left: 10px;
+}
+@media only screen and (max-width:500px) {
+    body{
+        display: block;
+        width: 400px;
+        height: 200px;
+    
+    }  
+}
